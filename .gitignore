@@ -1,0 +1,33 @@
+.DS_Store
+.vlt
+
+*target*
+*.jar
+*.class
+
+#content package related generated files
+
+company-ui/bin/**
+company-core/bin/**
+
+
+# eclipse specific git ignore
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+.idea
+*.iml
+
